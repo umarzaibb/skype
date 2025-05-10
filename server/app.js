@@ -32,7 +32,7 @@ app.listen(3000, ()=>{
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/test').then(()=>{
+  await mongoose.connect('mongodb://127.0.0.1:27017/skype').then(()=>{
     console.log("Database connected!");
   });
 }
